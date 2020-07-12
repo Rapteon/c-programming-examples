@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/CppProperties.json
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/c-programming-examples/v16/ipch/AutoPCH/1e7adbd35dd39533/UNIQUE-ARRAY.ipch
+/.vs/c-programming-examples/v16/ipch/AutoPCH/1e7adbd35dd39533
+/.vs/c-programming-examples/v16/ipch/AutoPCH/1b68dc375cfeb873/UNIQUE-ARRAY.ipch
+/.vs/c-programming-examples/v16/ipch/AutoPCH/1b68dc375cfeb873
+/.vs/c-programming-examples/v16/ipch/AutoPCH
+/.vs/c-programming-examples/v16/Browse.VC.opendb
+/.vs/c-programming-examples/v16/Browse.VC.db-wal
+/.vs/c-programming-examples/v16/Browse.VC.db-shm
+/.vs/c-programming-examples/v16/Browse.VC.db
+/.vs/c-programming-examples/v16/.suo
