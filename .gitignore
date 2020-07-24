@@ -64,3 +64,5 @@ dkms.conf
 /.vs/c-programming-examples/v16/Browse.VC.db-shm
 /.vs/c-programming-examples/v16/Browse.VC.db
 /.vs/c-programming-examples/v16/.suo
+# The following file is for testing purposes. Hence ignore.
+scratch.c
