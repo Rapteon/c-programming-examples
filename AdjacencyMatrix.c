@@ -1,3 +1,8 @@
+/*
+ * Program implementing an adjacency matrix (used to represent a graph).
+ * AUTHOR: rapteon: DATE: 17APR2020
+ */
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<stdlib.h>
@@ -167,6 +172,7 @@ void displayArray(short *a, short *s, short *opt){
 	printf("\n");
 }
 void writeToDisk(AdjacencyMatrix *m, FILE *fp){
+	//This function writes the graph to the file 'graphs.txt'
 	if(!fp)
 		return;
 	fprintf(fp, ":Graph:\nVertices:%d\n", m->vertices);
