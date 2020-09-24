@@ -1,2 +1,4 @@
-# cPrograms
-Some stuff which I tried out...
+# C-Programming-Examples
+
+### A collection of random programs.
+Intended to help people who are new to C.
