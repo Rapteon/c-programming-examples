@@ -1,3 +1,8 @@
+/*
+ * AUTHOR: rapteon; DATE: 20200120
+ * Program to show the usage of pointer arrays.
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 
