@@ -1,7 +1,7 @@
 /*
  * AUTHOR: Rapteon; DATE: Wednesday 20 January 2021, 07:48:09 PM
  * Program to show the usage of dynamic memory allocation using malloc().
- * The program checks if the string given as a command line parameter is a palindrome.
+ * The program prints the reversed input string.
  * To compile, use `cc dynamicMem.c -o dynamicMem.out`
  */
 
@@ -15,11 +15,12 @@ int main(int argc, char* argv[]){
 		exit(1);
 	}
 
-	printf("You entered: %s\n", inputString);
-
 	char *inputString = argv[1];
 	int stringLength = strlen(inputString);
 	char *reversedString = (char *)malloc(stringLength * sizeof(char));
+
+	printf("You entered: %s\n", inputString);
+
 
 	if(!reversedString) {
 		printf("Not enough memory.\n");
@@ -32,13 +33,5 @@ int main(int argc, char* argv[]){
 	reversedString[stringLength] = '\0';
 
 	printf("Reversed: %s\n", reversedString);
-
-	if(strncmp(inputString, reversedString, stringLength) == 0){
-		printf("String is a palindrome.\n");
-		exit(0);
-	}
-	else{
-		printf("NOT a paindrome.\n");
-		exit(1);
-	}
+	exit(0);
 }
