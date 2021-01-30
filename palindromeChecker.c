@@ -2,6 +2,7 @@
 /*
  * Program to check if a string is a palindrome or not. Does not ignore case.
  * Time Complexity: O(n/2)
+ * To compile, use `cc palindromeChecker.c -o palindromeChecker.out`
  */
 
 #include<stdio.h>
